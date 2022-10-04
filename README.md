@@ -18,8 +18,18 @@ Remember!
 - A test that does not compile is a failing test.
 - Fix the test.
 - Refactor if need be.
+- Do not make a test too complicated to maintain.
 
 ## Examples
 All the examples of best practice are listed below.
 
-- Example 1
+- Assert has a > b but only one way tested
+- If statements likely to be a smell
+- Abuse of InlineData, too many parameters handling too many scenarios in one test
+- Booleans to decide with Asserts
+- Null checks newer testall/impossible code
+- Use SonarQube - It can be an education to catch logic you miss.
+- Tackle the coverage to reduce the noise when adding new code
+- Class testing another class
+- Writing unit tests after the code is written
+- Write test-driven code
