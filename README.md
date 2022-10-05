@@ -19,6 +19,7 @@ Remember!
 - Fix the test.
 - Refactor if need be.
 - Do not make a test too complicated to maintain.
+- Test folder structure should match the code tested - makes it easier to navigate the tests.
 
 ## Examples
 All the examples of best practice are listed below.
